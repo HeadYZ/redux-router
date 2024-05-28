@@ -1,0 +1,10 @@
+.list {
+	display: flex;
+	gap: 2rem;
+}
+
+.list a:hover,
+.list a.active {
+	color: var(--color-primary-800);
+    text-decoration: underline;
+}

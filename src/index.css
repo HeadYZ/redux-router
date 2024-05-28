@@ -41,6 +41,8 @@
 
 body {
 	margin: 0;
+	display: flex;
+	justify-content: center;
 }
 
 ul {
@@ -52,4 +54,15 @@ ul {
 main {
 	margin: 2rem auto;
 	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: var(--color-primary-600);
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	width: 100vw;
 }
